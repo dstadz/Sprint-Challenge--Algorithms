@@ -132,19 +132,6 @@ class SortingRobot:
         return self._list
 
 
-            # 2nd to last
-            
-        print('out of main loop')
-        self.set_light_on()
-        print(self._item, self._list,self._position)
-
-        self.swap_item()
-        print(self._item, self._list,self._position)
-
-
-        pass
-
-
 if __name__ == "__main__":
     # Test our your implementation from the command line
     # with `python robot_sort.py`
